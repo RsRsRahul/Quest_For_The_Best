@@ -1,0 +1,174 @@
+body{
+    background-color: azure;
+ }
+ .top{
+     background-image: url(./img/dg.jpeg);
+     height: 80em;
+     margin: 0px;
+     background-position: center;
+     background-repeat: no-repeat;
+     background-size: cover;
+ }
+ .top_dss{
+     background-image: url(./img/dg1.jpeg);
+ }
+ .top_gdsc{
+     background-image: url(./img/dg2.jpeg);
+ }
+ .top_cc{
+     background-image: url(./img/dg3.jpeg);
+ }
+ html{
+     font-size: 62.5%;
+ 
+ }
+ .vjit
+ {
+     margin-top:0px;
+ }
+ .tag{
+     margin-top: 5rem;
+     margin-bottom: 5rem;
+     font-size: xx-large;
+ }
+ .heading{
+     margin: 0px;
+     color: white;
+     padding-top: 300px;
+     font-size: 5em;
+     margin-left: 20px;
+     font-weight: 900;
+ }
+ .description{
+     text-align: center;
+ }
+ .gdscl {
+     font-size: 4rem;
+     margin: 6rem 6rem 6rem 6rem;
+ }
+ .dssl{
+     font-size: 4rem;
+     margin: 6rem 6rem 6rem 6rem;
+ }
+ .ccl{
+     font-size: 4rem;
+     margin: 6rem 6rem 6rem 6rem;
+ }
+ .img{
+     size: 10rem;
+ }
+ .vision{
+     text-align: center;
+     margin-bottom: 2%;
+     font-family: 'Nunito Sans', sans-serif;
+     font-style: italic;
+     color:#222831;
+ }
+ body {
+     margin: 0;
+     font-family: Arial, Helvetica, sans-serif;
+   }
+   
+   .topnav {
+     overflow: hidden;
+     background-color: #333;
+   }
+   
+   .topnav a {
+     float: left;
+     color: #f2f2f2;
+     text-align: center;
+     padding: 14px 16px;
+     text-decoration: none;
+     font-size: 17px;
+   }
+
+   .topnav a:hover {
+     background-color: #ddd;
+     color: black;
+   }
+   
+   .topnav a.active {
+     background-color: #04AA6D;
+     color: white;
+   }
+   .clubs{
+    padding-right:400px;
+	font-family: 'Comfortaa', cursive;
+    font-size: 3.5rem;
+    color: #9EA3A8;
+   }
+   .vjit{
+       font-size: 5rem;
+       padding-top: 0rem;
+       color: #DBE2E9;
+   }
+   .logo{
+     background-image: url("./img/vjit_logo_normal.png");
+     width: 10rem;
+     height: 12rem;
+     padding-left: 2rem;
+     padding-top: 2rem;
+     margin-right: 3rem;
+     margin-left: 5rem;
+     float: left;
+     }
+  .clg_name{
+     text-align: center;
+     font-size: 8rem;
+     margin-top: 0%;
+     padding-top: 5rem;
+     margin-right: 50px;
+     font-family: 'Montserrat', sans-serif;
+     color: #DBE2E9;
+
+         }
+    .clg_name1{
+        text-align: center;
+        font-size: 5rem;
+        margin-top: 0%;
+        padding-top: 10rem;
+        margin-right: 50px;
+        font-family: 'Montserrat', sans-serif;
+        color: #DBE2E9;
+
+    }    
+ @media(max-width:998px) {
+         html{
+             font-size: 55%;
+         }
+         .logo{
+             background-image: url("./img/vjit_logo_medium.png");
+             max-width: 100%;
+             height: 10rem;
+             padding-left: 2rem;
+             padding-top: 2rem;
+             margin-right: 3rem;
+             margin-left: 5rem;
+             float: left;
+             }
+     }
+ @media(max-width:768px) {
+         html{
+             font-size: 45%;
+         }
+         .logo{
+             background-image: url("./img/vjit_logo_short.png");
+             max-width: 9rem;
+             height: 9rem;
+             padding-left: 1rem;
+             padding-top: 2rem;
+             margin-right: 2rem;
+             margin-left: 2rem;
+             float: left;
+             }
+             .clg_name{
+                 font-size: 300%;
+                 padding-top: 2rem;
+                 margin-left: 0.1rem;
+                 margin-top: 0%;
+                 text-align: center;
+                 font-family: 'Montserrat', sans-serif;
+                 color: #ffffff;
+                 }
+                }
